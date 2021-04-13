@@ -9,8 +9,14 @@
 <link rel="stylesheet" href="index.css">
 
 <body>
-    <script src="https://togetherjs.com/togetherjs-min.js"></script>
-<button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
+  
+    <button id="start-togetherjs">Start TogetherJS</button>
+<script>
+$(function () {
+  $("#start-togetherjs").click(TogetherJS);
+});
+</script>
+
 
 <ul>
     <li>hhf</li>
